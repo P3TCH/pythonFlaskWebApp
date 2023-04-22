@@ -9,5 +9,10 @@ Connect with mariadb or mysql
 - Post Login
 - Post Register
 
-Service
-- Basic Authen
+```
+python3 app.py
+```
+
+```
+flask --app app.py --debug run
+```
