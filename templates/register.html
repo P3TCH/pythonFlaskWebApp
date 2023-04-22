@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/css/login.css">
+	<script src="/static/js/bootstrap.min.js"></script>
+	<script src="/static/js/authen.js"></script>
+	<title>Login</title>
+</head>
+<body onload="clear_token()">
+	<div class="log position-absolute top-49 start-50 translate-middle">
+		<h3>สมัครสมาชิก</h3>
+		<br>
+		<div class="mb-3" style="text-align: center; width: 250px;">
+			<!-- <label for="exampleInputEmail1" class="form-label">ชื่อผู้ใช้</label> -->
+			<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ชื่อผู้ใช้">
+		  </div>
+		  <div class="mb-3">
+			<!-- <label for="exampleInputPassword1" class="form-label">รหัสผ่าน</label> -->
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="รหัสผ่าน" >
+		  </div>
+		  <div class="mb-3">
+			<!-- <label for="exampleInputPassword1" class="form-label">รหัสผ่าน</label> -->
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="ยืนยันรหัสผ่านอีกครั้ง" >
+		  </div>
+		  <br>
+		  <div class="mb-3">
+			<div>
+				<button type="submit" class="btn btn-primary">สมัครสมาชิก</button>
+			</div>
+		  </div>
+		  <br><br>
+		  <p>เป็นสมาชิก ? <a href="/login">เข้าสู่ระบบ</a></p>
+		  <br>
+	</div>
+</body>
+</html>
