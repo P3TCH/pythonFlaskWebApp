@@ -16,5 +16,5 @@ python3 app.py
 ```
 flask --app app.py --debug run
 pip3 install mysql-connector
-pip3 install jwt
+pip3 install PyJWT
 ```
